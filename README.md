@@ -2,9 +2,14 @@
 
 月配列俺式改二
 
-## import Karabiner-Elements
+## Import to Karabiner-Elements
 
-<a href="karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fraw.githubusercontent.com%2Fshun-fix9%2Fkarabiner-elements-complex_modifications%2Fpersonal-shun-fix9.json">Import</a>
+1. copy `personal-shun-fix9.json` to `~.config/karabiner/assets/complex_modifications/`
+1. open Karabiner-Elements preference
+1. select Complex Modifications tab
+1. Add rule
+1. select 月配列俺式改二
+
 
 ## keyboad layout
 
