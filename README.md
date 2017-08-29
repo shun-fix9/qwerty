@@ -4,7 +4,7 @@
 
 ## import Karabiner-Elements
 
-[import](karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fraw.githubusercontent.com%2Fshun-fix9%2Fkarabiner-elements-complex_modifications%2Fpersonal-shun-fix9.json)
+<a href="karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fraw.githubusercontent.com%2Fshun-fix9%2Fkarabiner-elements-complex_modifications%2Fpersonal-shun-fix9.json">Import</a>
 
 ## keyboad layout
 
