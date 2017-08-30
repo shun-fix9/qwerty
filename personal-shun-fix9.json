@@ -47,12 +47,12 @@
         {
           "type": "basic",
           "from": {"key_code": "open_bracket","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "close_bracket"}]
+          "to": [{"key_code": "close_bracket", "modifiers": ["left_shift"]}]
         },
         {
           "type": "basic",
           "from": {"key_code": "close_bracket","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "backslash"}]
+          "to": [{"key_code": "backslash", "modifiers": ["left_shift"]}]
         },
         {
           "type": "basic",
@@ -77,12 +77,12 @@
         {
           "type": "basic",
           "from": {"key_code": "open_bracket","modifiers": {"optional": ["any"]}},
-          "to": [{"key_code": "close_bracket", "modifiers": ["left_shift"]}]
+          "to": [{"key_code": "close_bracket"}]
         },
         {
           "type": "basic",
           "from": {"key_code": "close_bracket","modifiers": {"optional": ["any"]}},
-          "to": [{"key_code": "backslash", "modifiers": ["left_shift"]}]
+          "to": [{"key_code": "backslash"}]
         },
         {
           "type": "basic",
@@ -98,6 +98,11 @@
           "type": "basic",
           "from": {"key_code": "right_command","modifiers": {"optional": ["any"]}},
           "to": [{"key_code": "return_or_enter"}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "left_option","modifiers": {"optional": ["any"]}},
+          "to": [{"key_code": "delete_or_backspace"}]
         }
       ]
     },
@@ -125,21 +130,9 @@
 
         {
           "type": "basic",
-          "conditions": [
-            {"type": "variable_if", "name": "is_passthrough", "value": 0}
-          ],
-          "from": {"key_code": "left_option","modifiers": {"optional": ["any"]}},
-          "to": [{"key_code": "left_option"}],
+          "from": {"key_code": "left_shift","modifiers": {"optional": ["any"]}},
+          "to": [{"key_code": "left_shift"}],
           "to_after_key_up": [{"set_variable": {"name": "is_passthrough", "value": 1}}]
-        },
-        {
-          "type": "basic",
-          "conditions": [
-            {"type": "variable_if", "name": "is_passthrough", "value": 1}
-          ],
-          "from": {"key_code": "left_option","modifiers": {"optional": ["any"]}},
-          "to": [{"key_code": "left_option"}],
-          "to_after_key_up": [{"set_variable": {"name": "is_passthrough", "value": 0}}]
         },
 
 
