@@ -22,6 +22,18 @@
 
         {
           "type": "basic",
+          "from": {"key_code": "spacebar", "modifiers": {"mandatory": ["shift"],"optional": ["any"]}},
+          "to": [{"key_code": "spacebar"}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "spacebar", "modifiers": {"optional": ["any"]}},
+          "to": [{"key_code": "spacebar", "modifiers": ["left_shift"]}]
+        },
+
+
+        {
+          "type": "basic",
           "conditions": [
             {"type": "variable_if", "name": "is_japanese_kana", "value": 1},
             {"type": "variable_if", "name": "is_japanese_kana_t", "value": 0},
