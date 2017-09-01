@@ -2,111 +2,6 @@
   "title": "Personal rules (@shun-fix9)",
   "rules": [
     {
-      "description": "JIS -> ANSI",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {"key_code": "2","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "open_bracket"}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "6","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "equal_sign"}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "7","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "6", "modifiers": ["left_shift"]}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "8","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "quote", "modifiers": ["left_shift"]}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "9","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "8", "modifiers": ["left_shift"]}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "0","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "9", "modifiers": ["left_shift"]}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "hyphen","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "open_bracket", "modifiers": ["left_shift"]}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "equal_sign","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "semicolon", "modifiers": ["left_shift"]}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "open_bracket","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "close_bracket", "modifiers": ["left_shift"]}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "close_bracket","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "backslash", "modifiers": ["left_shift"]}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "semicolon","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "semicolon"}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "quote","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "7", "modifiers": ["left_shift"]}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "international1","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "equal_sign", "modifiers": ["left_shift"]}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "equal_sign","modifiers": {"optional": ["any"]}},
-          "to": [{"key_code": "hyphen", "modifiers": ["left_shift"]}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "open_bracket","modifiers": {"optional": ["any"]}},
-          "to": [{"key_code": "close_bracket"}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "close_bracket","modifiers": {"optional": ["any"]}},
-          "to": [{"key_code": "backslash"}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "semicolon","modifiers": {"optional": ["any"]}},
-          "to": [{"key_code": "quote"}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "quote","modifiers": {"optional": ["any"]}},
-          "to": [{"key_code": "2", "modifiers": ["left_shift"]}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "right_command","modifiers": {"optional": ["any"]}},
-          "to": [{"key_code": "return_or_enter"}]
-        },
-        {
-          "type": "basic",
-          "from": {"key_code": "left_option","modifiers": {"optional": ["any"]}},
-          "to": [{"key_code": "delete_or_backspace"}]
-        }
-      ]
-    },
-    {
       "description": "月配列俺式改二",
       "manipulators": [
         {
@@ -124,6 +19,15 @@
           "to": [{"key_code": "japanese_kana"}],
           "to_after_key_up": [
             {"set_variable": {"name": "is_japanese_kana", "value": 1}},
+            {"set_variable": {"name": "is_passthrough", "value": 0}}
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "escape","modifiers": {"optional": ["any"]}},
+          "to": [{"key_code": "japanese_eisuu"},{"key_code": "escape"}],
+          "to_after_key_up": [
+            {"set_variable": {"name": "is_japanese_kana", "value": 0}},
             {"set_variable": {"name": "is_passthrough", "value": 0}}
           ]
         },
@@ -2007,6 +1911,111 @@
           "to": [{"key_code": "x"},{"key_code": "u"}]
         }
 
+      ]
+    },
+    {
+      "description": "JIS -> ANSI",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {"key_code": "2","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
+          "to": [{"key_code": "open_bracket"}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "6","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
+          "to": [{"key_code": "equal_sign"}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "7","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
+          "to": [{"key_code": "6", "modifiers": ["left_shift"]}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "8","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
+          "to": [{"key_code": "quote", "modifiers": ["left_shift"]}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "9","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
+          "to": [{"key_code": "8", "modifiers": ["left_shift"]}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "0","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
+          "to": [{"key_code": "9", "modifiers": ["left_shift"]}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "hyphen","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
+          "to": [{"key_code": "open_bracket", "modifiers": ["left_shift"]}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "equal_sign","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
+          "to": [{"key_code": "semicolon", "modifiers": ["left_shift"]}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "open_bracket","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
+          "to": [{"key_code": "close_bracket", "modifiers": ["left_shift"]}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "close_bracket","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
+          "to": [{"key_code": "backslash", "modifiers": ["left_shift"]}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "semicolon","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
+          "to": [{"key_code": "semicolon"}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "quote","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
+          "to": [{"key_code": "7", "modifiers": ["left_shift"]}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "international1","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
+          "to": [{"key_code": "equal_sign", "modifiers": ["left_shift"]}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "equal_sign","modifiers": {"optional": ["any"]}},
+          "to": [{"key_code": "hyphen", "modifiers": ["left_shift"]}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "open_bracket","modifiers": {"optional": ["any"]}},
+          "to": [{"key_code": "close_bracket"}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "close_bracket","modifiers": {"optional": ["any"]}},
+          "to": [{"key_code": "backslash"}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "semicolon","modifiers": {"optional": ["any"]}},
+          "to": [{"key_code": "quote"}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "quote","modifiers": {"optional": ["any"]}},
+          "to": [{"key_code": "2", "modifiers": ["left_shift"]}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "right_command","modifiers": {"optional": ["any"]}},
+          "to": [{"key_code": "return_or_enter"}]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "left_option","modifiers": {"optional": ["any"]}},
+          "to": [{"key_code": "delete_or_backspace"}]
+        }
       ]
     }
   ]
