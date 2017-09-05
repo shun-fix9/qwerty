@@ -9,11 +9,22 @@
 1. select Complex Modifications tab
 1. Add rule
 1. select 月配列俺式改二
+1. select JIS -> ANSI
 
 
 ## keyboad layout
 
 ```
+! @ # $ % ^ & * ( ) ~ + |
+1 2 3 4 5 6 7 8 9 0 - = \
+
+                  P { }
+                  p [ ]
+                 L ; '
+                 l : "
+                    `
+                    _
+
 通常
   そ   こ   し   て  (Ｔ)  つ   ん   い   の   り   ち   「
    は   か  (Ｄ)  と   た   く   う  (Ｋ) (Ｌ)  き   れ   」
