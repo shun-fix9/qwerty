@@ -1949,7 +1949,7 @@
         {
           "type": "basic",
           "from": {"key_code": "hyphen","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "open_bracket", "modifiers": ["left_shift"]}]
+          "to": [{"key_code": "equal_sign", "modifiers": ["left_shift"]}]
         },
         {
           "type": "basic",
@@ -1979,7 +1979,7 @@
         {
           "type": "basic",
           "from": {"key_code": "international1","modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
-          "to": [{"key_code": "equal_sign", "modifiers": ["left_shift"]}]
+          "to": [{"key_code": "open_bracket", "modifiers": ["left_shift"]}]
         },
         {
           "type": "basic",
