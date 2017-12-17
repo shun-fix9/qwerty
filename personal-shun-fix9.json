@@ -47,7 +47,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "q"},
-          "to": [{"key_code": "s"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "s"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -61,7 +61,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "w"},
-          "to": [{"key_code": "k"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "k"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -75,7 +75,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "e"},
-          "to": [{"key_code": "s"},{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "s"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -89,7 +89,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "r"},
-          "to": [{"key_code": "t"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "t"},{"key_code": "e"},{}]
         },
         {
           "type": "basic",
@@ -117,7 +117,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "y"},
-          "to": [{"key_code": "t"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "t"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -131,7 +131,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "u"},
-          "to": [{"key_code": "n"},{"key_code": "n"},{"none": 0}]
+          "to": [{"key_code": "n"},{"key_code": "n"},{}]
         },
         {
           "type": "basic",
@@ -145,7 +145,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "i"},
-          "to": [{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -159,7 +159,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "o"},
-          "to": [{"key_code": "n"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "n"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -173,7 +173,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "p"},
-          "to": [{"key_code": "r"},{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "r"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -187,7 +187,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "open_bracket"},
-          "to": [{"key_code": "t"},{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "t"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -201,7 +201,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "close_bracket"},
-          "to": [{"key_code": "close_bracket"},{"none": 0}]
+          "to": [{"key_code": "close_bracket"},{}]
         },
 
         {
@@ -216,7 +216,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "a"},
-          "to": [{"key_code": "h"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "h"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -230,7 +230,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "s"},
-          "to": [{"key_code": "k"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "k"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -258,7 +258,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "f"},
-          "to": [{"key_code": "t"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "t"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -272,7 +272,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "g"},
-          "to": [{"key_code": "t"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "t"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -286,7 +286,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "h"},
-          "to": [{"key_code": "k"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "k"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -300,7 +300,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "j"},
-          "to": [{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -342,7 +342,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "semicolon"},
-          "to": [{"key_code": "k"},{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "k"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -356,7 +356,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "quote"},
-          "to": [{"key_code": "r"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "r"},{"key_code": "e"},{}]
         },
 
         {
@@ -371,7 +371,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "z"},
-          "to": [{"key_code": "s"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "s"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -385,7 +385,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "x"},
-          "to": [{"key_code": "k"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "k"},{"key_code": "e"},{}]
         },
         {
           "type": "basic",
@@ -399,7 +399,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "c"},
-          "to": [{"key_code": "n"},{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "n"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -413,7 +413,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "v"},
-          "to": [{"key_code": "n"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "n"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -427,7 +427,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "b"},
-          "to": [{"key_code": "s"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "s"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -441,7 +441,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "n"},
-          "to": [{"key_code": "x"},{"key_code": "t"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "x"},{"key_code": "t"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -455,7 +455,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "m"},
-          "to": [{"key_code": "r"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "r"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -469,7 +469,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "comma"},
-          "to": [{"key_code": "comma"},{"none": 0}]
+          "to": [{"key_code": "comma"},{}]
         },
         {
           "type": "basic",
@@ -483,7 +483,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "period"},
-          "to": [{"key_code": "period"},{"none": 0}]
+          "to": [{"key_code": "period"},{}]
         },
         {
           "type": "basic",
@@ -511,7 +511,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "international1"},
-          "to": [{"key_code": "international1"},{"none": 0}]
+          "to": [{"key_code": "international1"},{}]
         },
 
 
@@ -527,7 +527,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "y"},
-          "to": [{"key_code": "p"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "p"},{"key_code": "e"},{}]
         },
         {
           "type": "basic",
@@ -541,7 +541,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "u"},
-          "to": [{"key_code": "d"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "d"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -555,7 +555,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "i"},
-          "to": [{"key_code": "t"},{"key_code": "h"},{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "t"},{"key_code": "h"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -569,7 +569,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "o"},
-          "to": [{"key_code": "s"},{"key_code": "h"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "s"},{"key_code": "h"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -583,7 +583,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "p"},
-          "to": [{"key_code": "c"},{"key_code": "h"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "c"},{"key_code": "h"},{"key_code": "e"},{}]
         },
         {
           "type": "basic",
@@ -597,7 +597,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "open_bracket"},
-          "to": [{"key_code": "j"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "j"},{"key_code": "e"},{}]
         },
         {
           "type": "basic",
@@ -611,7 +611,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "close_bracket"},
-          "to": [{"key_code": "x"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "x"},{"key_code": "e"},{}]
         },
 
         {
@@ -626,7 +626,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "h"},
-          "to": [{"key_code": "p"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "p"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -640,7 +640,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "j"},
-          "to": [{"key_code": "b"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "b"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -654,7 +654,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "k"},
-          "to": [{"key_code": "j"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "j"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -668,7 +668,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "l"},
-          "to": [{"key_code": "k"},{"key_code": "y"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "k"},{"key_code": "y"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -682,7 +682,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "semicolon"},
-          "to": [{"key_code": "b"},{"key_code": "y"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "b"},{"key_code": "y"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -696,7 +696,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "quote"},
-          "to": [{"key_code": "s"},{"key_code": "h"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "s"},{"key_code": "h"},{"key_code": "e"},{}]
         },
 
         {
@@ -711,7 +711,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "n"},
-          "to": [{"key_code": "j"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "j"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -725,7 +725,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "m"},
-          "to": [{"key_code": "c"},{"key_code": "h"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "c"},{"key_code": "h"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -739,7 +739,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "comma"},
-          "to": [{"key_code": "k"},{"key_code": "y"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "k"},{"key_code": "y"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -753,7 +753,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "period"},
-          "to": [{"key_code": "h"},{"key_code": "y"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "h"},{"key_code": "y"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -767,7 +767,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "slash"},
-          "to": [{"key_code": "b"},{"key_code": "y"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "b"},{"key_code": "y"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -781,7 +781,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "international1"},
-          "to": [{"key_code": "x"},{"key_code": "y"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "x"},{"key_code": "y"},{"key_code": "u"},{}]
         },
 
 
@@ -797,7 +797,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "y"},
-          "to": [{"key_code": "n"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "n"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -811,7 +811,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "u"},
-          "to": [{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "e"},{}]
         },
         {
           "type": "basic",
@@ -825,7 +825,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "i"},
-          "to": [{"key_code": "m"},{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "m"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -839,7 +839,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "o"},
-          "to": [{"key_code": "y"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "y"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -853,7 +853,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "p"},
-          "to": [{"key_code": "c"},{"key_code": "h"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "c"},{"key_code": "h"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -867,7 +867,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "open_bracket"},
-          "to": [{"key_code": "j"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "j"},{"key_code": "e"},{}]
         },
         {
           "type": "basic",
@@ -881,7 +881,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "close_bracket"},
-          "to": [{"key_code": "x"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "x"},{"key_code": "e"},{}]
         },
 
         {
@@ -896,7 +896,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "s"},
-          "to": [{"key_code": "f"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "f"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -910,7 +910,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "f"},
-          "to": [{"key_code": "s"},{"key_code": "h"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "s"},{"key_code": "h"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -924,7 +924,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "h"},
-          "to": [{"key_code": "m"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "m"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -938,7 +938,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "j"},
-          "to": [{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -952,7 +952,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "k"},
-          "to": [{"key_code": "m"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "m"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -966,7 +966,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "l"},
-          "to": [{"key_code": "w"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "w"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -980,7 +980,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "semicolon"},
-          "to": [{"key_code": "y"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "y"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -994,7 +994,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "quote"},
-          "to": [{"key_code": "k"},{"key_code": "y"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "k"},{"key_code": "y"},{"key_code": "o"},{}]
         },
 
         {
@@ -1009,7 +1009,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "c"},
-          "to": [{"key_code": "c"},{"key_code": "h"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "c"},{"key_code": "h"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -1023,7 +1023,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "n"},
-          "to": [{"key_code": "m"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "m"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -1037,7 +1037,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "m"},
-          "to": [{"key_code": "r"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "r"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -1051,7 +1051,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "comma"},
-          "to": [{"key_code": "n"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "n"},{"key_code": "e"},{}]
         },
         {
           "type": "basic",
@@ -1065,7 +1065,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "period"},
-          "to": [{"key_code": "hyphen"},{"none": 0}]
+          "to": [{"key_code": "hyphen"},{}]
         },
 
 
@@ -1081,7 +1081,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "q"},
-          "to": [{"key_code": "z"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "z"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -1095,7 +1095,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "w"},
-          "to": [{"key_code": "h"},{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "h"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -1109,7 +1109,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "e"},
-          "to": [{"key_code": "h"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "h"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -1123,7 +1123,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "r"},
-          "to": [{"key_code": "f"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "f"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -1137,7 +1137,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "t"},
-          "to": [{"key_code": "m"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "m"},{"key_code": "e"},{}]
         },
 
         {
@@ -1152,7 +1152,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "a"},
-          "to": [{"key_code": "d"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "d"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -1166,7 +1166,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "s"},
-          "to": [{"key_code": "w"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "w"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -1180,7 +1180,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "d"},
-          "to": [{"key_code": "r"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "r"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -1194,7 +1194,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "f"},
-          "to": [{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -1208,7 +1208,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "g"},
-          "to": [{"key_code": "y"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "y"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -1222,7 +1222,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "j"},
-          "to": [{"key_code": "s"},{"key_code": "h"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "s"},{"key_code": "h"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -1236,7 +1236,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "l"},
-          "to": [{"key_code": "m"},{"key_code": "y"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "m"},{"key_code": "y"},{"key_code": "a"},{}]
         },
 
         {
@@ -1251,7 +1251,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "z"},
-          "to": [{"key_code": "g"},{"key_code": "y"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "g"},{"key_code": "y"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -1265,7 +1265,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "x"},
-          "to": [{"key_code": "h"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "h"},{"key_code": "e"},{}]
         },
         {
           "type": "basic",
@@ -1279,7 +1279,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "c"},
-          "to": [{"key_code": "s"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "s"},{"key_code": "e"},{}]
         },
         {
           "type": "basic",
@@ -1293,7 +1293,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "v"},
-          "to": [{"key_code": "g"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "g"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -1307,7 +1307,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "b"},
-          "to": [{"key_code": "z"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "z"},{"key_code": "a"},{}]
         },
 
 
@@ -1323,7 +1323,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "q"},
-          "to": [{"key_code": "b"},{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "b"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -1337,7 +1337,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "w"},
-          "to": [{"key_code": "g"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "g"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -1351,7 +1351,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "e"},
-          "to": [{"key_code": "j"},{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "j"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -1365,7 +1365,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "r"},
-          "to": [{"key_code": "g"},{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "g"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -1379,7 +1379,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "t"},
-          "to": [{"key_code": "z"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "z"},{"key_code": "e"},{}]
         },
 
         {
@@ -1394,7 +1394,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "a"},
-          "to": [{"key_code": "r"},{"key_code": "y"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "r"},{"key_code": "y"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -1408,7 +1408,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "s"},
-          "to": [{"key_code": "g"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "g"},{"key_code": "e"},{}]
         },
         {
           "type": "basic",
@@ -1422,7 +1422,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "d"},
-          "to": [{"key_code": "d"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "d"},{"key_code": "e"},{}]
         },
         {
           "type": "basic",
@@ -1436,7 +1436,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "f"},
-          "to": [{"key_code": "b"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "b"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -1450,7 +1450,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "g"},
-          "to": [{"key_code": "d"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "d"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -1464,7 +1464,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "h"},
-          "to": [{"key_code": "p"},{"key_code": "y"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "p"},{"key_code": "y"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -1478,7 +1478,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "j"},
-          "to": [{"key_code": "g"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "g"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -1492,7 +1492,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "k"},
-          "to": [{"key_code": "j"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "j"},{"key_code": "o"},{}]
         },
 
         {
@@ -1507,7 +1507,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "z"},
-          "to": [{"key_code": "d"},{"key_code": "h"},{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "d"},{"key_code": "h"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -1521,7 +1521,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "x"},
-          "to": [{"key_code": "p"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "p"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -1535,7 +1535,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "c"},
-          "to": [{"key_code": "z"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "z"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -1549,7 +1549,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "v"},
-          "to": [{"key_code": "b"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "b"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -1563,7 +1563,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "b"},
-          "to": [{"key_code": "b"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "b"},{"key_code": "e"},{}]
         },
         {
           "type": "basic",
@@ -1577,7 +1577,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "n"},
-          "to": [{"key_code": "g"},{"key_code": "y"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "g"},{"key_code": "y"},{"key_code": "u"},{}]
         },
 
 
@@ -1593,7 +1593,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "q"},
-          "to": [{"key_code": "n"},{"key_code": "y"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "n"},{"key_code": "y"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -1607,7 +1607,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "w"},
-          "to": [{"key_code": "r"},{"key_code": "y"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "r"},{"key_code": "y"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -1621,7 +1621,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "e"},
-          "to": [{"key_code": "f"},{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "f"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -1635,7 +1635,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "r"},
-          "to": [{"key_code": "d"},{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "d"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -1649,7 +1649,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "t"},
-          "to": [{"key_code": "x"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "x"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -1663,7 +1663,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "y"},
-          "to": [{"key_code": "w"},{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "w"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -1677,7 +1677,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "u"},
-          "to": [{"key_code": "u"},{"key_code": "x"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "u"},{"key_code": "x"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -1691,7 +1691,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "i"},
-          "to": [{"key_code": "x"},{"key_code": "y"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "x"},{"key_code": "y"},{"key_code": "o"},{}]
         },
 
         {
@@ -1706,7 +1706,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "a"},
-          "to": [{"key_code": "v"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "v"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -1720,7 +1720,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "s"},
-          "to": [{"key_code": "p"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "p"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -1734,7 +1734,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "d"},
-          "to": [{"key_code": "b"},{"key_code": "y"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "b"},{"key_code": "y"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -1748,7 +1748,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "f"},
-          "to": [{"key_code": "p"},{"key_code": "i"},{"none": 0}]
+          "to": [{"key_code": "p"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -1762,7 +1762,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "g"},
-          "to": [{"key_code": "g"},{"key_code": "y"},{"key_code": "a"},{"none": 0}]
+          "to": [{"key_code": "g"},{"key_code": "y"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
@@ -1776,7 +1776,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "h"},
-          "to": [{"key_code": "u"},{"key_code": "x"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "u"},{"key_code": "x"},{"key_code": "e"},{}]
         },
         {
           "type": "basic",
@@ -1790,7 +1790,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "j"},
-          "to": [{"key_code": "f"},{"key_code": "e"},{"none": 0}]
+          "to": [{"key_code": "f"},{"key_code": "e"},{}]
         },
         {
           "type": "basic",
@@ -1804,7 +1804,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "k"},
-          "to": [{"key_code": "f"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "f"},{"key_code": "o"},{}]
         },
 
         {
@@ -1819,7 +1819,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "z"},
-          "to": [{"key_code": "n"},{"key_code": "y"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "n"},{"key_code": "y"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -1833,7 +1833,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "x"},
-          "to": [{"key_code": "n"},{"key_code": "y"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "n"},{"key_code": "y"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -1847,7 +1847,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "c"},
-          "to": [{"key_code": "m"},{"key_code": "y"},{"key_code": "o"},{"none": 0}]
+          "to": [{"key_code": "m"},{"key_code": "y"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -1861,7 +1861,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "v"},
-          "to": [{"key_code": "r"},{"key_code": "y"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "r"},{"key_code": "y"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -1875,7 +1875,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "b"},
-          "to": [{"key_code": "m"},{"key_code": "y"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "m"},{"key_code": "y"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -1889,7 +1889,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "n"},
-          "to": [{"key_code": "p"},{"key_code": "y"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "p"},{"key_code": "y"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
@@ -1903,7 +1903,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "m"},
-          "to": [{"key_code": "x"},{"key_code": "u"},{"none": 0}]
+          "to": [{"key_code": "x"},{"key_code": "u"},{}]
         }
 
       ]
