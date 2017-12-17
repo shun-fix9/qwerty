@@ -17,7 +17,7 @@
           "conditions": [
             {"type": "input_source_if","input_sources": [{"language": "ja"}]}
           ],
-          "from": {"key_code": "escape","modifiers": {"optional": ["any"]}},
+          "from": {"key_code": "escape"},
           "to": [{"key_code": "japanese_eisuu"},{"key_code": "escape"}],
           "to_after_key_up": [
             {"set_variable": {"name": "is_passthrough", "value": 0}}
