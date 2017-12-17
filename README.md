@@ -2,6 +2,8 @@
 
 月配列俺式改二
 
+[import](karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fraw.githubusercontent.com%2Fshun-fix9%2Fkarabiner-elements-complex_modifications%2Fmaster%2Fpersonal-shun-fix9.json)
+
 ## Import to Karabiner-Elements
 
 1. copy `personal-shun-fix9.json` to `~.config/karabiner/assets/complex_modifications/`
