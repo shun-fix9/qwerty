@@ -1691,6 +1691,20 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
           ],
           "from": {"key_code": "i"},
+          "to": [{"key_code": "f"},{"key_code": "y"},{"key_code": "u"},{}]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+            {"type": "variable_if", "name": "is_passthrough", "value": 0},
+            {"type": "variable_if", "name": "is_japanese_kana_t", "value": 0},
+            {"type": "variable_if", "name": "is_japanese_kana_d", "value": 0},
+            {"type": "variable_if", "name": "is_japanese_kana_k", "value": 0},
+            {"type": "variable_if", "name": "is_japanese_kana_l", "value": 0},
+            {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 1}
+          ],
+          "from": {"key_code": "o"},
           "to": [{"key_code": "x"},{"key_code": "y"},{"key_code": "o"},{}]
         },
 
