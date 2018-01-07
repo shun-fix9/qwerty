@@ -597,7 +597,7 @@
             {"type": "variable_if", "name": "is_japanese_kana_slash", "value": 0}
           ],
           "from": {"key_code": "open_bracket"},
-          "to": [{"key_code": "j"},{"key_code": "e"},{}]
+          "to": [{"key_code": "h"},{"key_code": "y"},{"key_code": "a"},{}]
         },
         {
           "type": "basic",
