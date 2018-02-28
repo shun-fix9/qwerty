@@ -240,6 +240,15 @@
             {"type": "input_source_if","input_sources": [{"language": "ja"}]},
             {"type": "variable_if", "name": "is_passthrough", "value": 0}
           ],
+          "from": {"simultaneous": [{"key_code": "f"},{"key_code": "y"}]},
+          "to": [{"key_code": "s"},{"key_code": "h"},{"key_code": "u"},{}]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+            {"type": "variable_if", "name": "is_passthrough", "value": 0}
+          ],
           "from": {"simultaneous": [{"key_code": "f"},{"key_code": "u"}]},
           "to": [{"key_code": "h"},{"key_code": "y"},{"key_code": "u"},{}]
         },
@@ -507,15 +516,6 @@
           "to": [{"key_code": "n"},{"key_code": "y"},{"key_code": "o"},{}]
         },
 
-        {
-          "type": "basic",
-          "conditions": [
-            {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-            {"type": "variable_if", "name": "is_passthrough", "value": 0}
-          ],
-          "from": {"simultaneous": [{"key_code": "j"},{"key_code": "a"}]},
-          "to": [{"key_code": "s"},{"key_code": "h"},{"key_code": "u"},{}]
-        },
         {
           "type": "basic",
           "conditions": [
