@@ -62,7 +62,7 @@
             {"type": "variable_if", "name": "is_passthrough", "value": 0}
           ],
           "from": {"simultaneous": [{"key_code": "s"},{"key_code": "i"}]},
-          "to": [{"key_code": "u"},{"key_code": "x"},{"key_code": "o"},{}]
+          "to": [{"key_code": "u"},{"key_code": "l"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -71,7 +71,7 @@
             {"type": "variable_if", "name": "is_passthrough", "value": 0}
           ],
           "from": {"simultaneous": [{"key_code": "s"},{"key_code": "o"}]},
-          "to": [{"key_code": "u"},{"key_code": "x"},{"key_code": "e"},{}]
+          "to": [{"key_code": "u"},{"key_code": "l"},{"key_code": "e"},{}]
         },
         {
           "type": "basic",
@@ -80,7 +80,7 @@
             {"type": "variable_if", "name": "is_passthrough", "value": 0}
           ],
           "from": {"simultaneous": [{"key_code": "s"},{"key_code": "p"}]},
-          "to": [{"key_code": "u"},{"key_code": "x"},{"key_code": "i"},{}]
+          "to": [{"key_code": "u"},{"key_code": "l"},{"key_code": "i"},{}]
         },
         {
           "type": "basic",
@@ -671,7 +671,7 @@
             {"type": "variable_if", "name": "is_passthrough", "value": 0}
           ],
           "from": {"simultaneous": [{"key_code": "k"},{"key_code": "f"}]},
-          "to": [{"key_code": "y"},{"key_code": "o"},{}]
+          "to": [{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -931,7 +931,7 @@
             {"type": "variable_if", "name": "is_passthrough", "value": 0}
           ],
           "from": {"key_code": "t"},
-          "to": [{"key_code": "o"},{}]
+          "to": [{"key_code": "y"},{"key_code": "o"},{}]
         },
         {
           "type": "basic",
@@ -1140,7 +1140,7 @@
             {"type": "variable_if", "name": "is_passthrough", "value": 0}
           ],
           "from": {"key_code": "n"},
-          "to": [{"key_code": "x"},{"key_code": "t"},{"key_code": "u"},{}]
+          "to": [{"key_code": "l"},{"key_code": "t"},{"key_code": "u"},{}]
         },
         {
           "type": "basic",
