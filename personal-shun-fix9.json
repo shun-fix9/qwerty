@@ -242,7 +242,7 @@
             {"type": "variable_if", "name": "is_passthrough", "value": 0}
           ],
           "from": {"simultaneous": [{"key_code": "f"},{"key_code": "y"}]},
-          "to": [{"key_code": "s"},{"key_code": "h"},{"key_code": "u", "repeat": false}]
+          "to": [{"key_code": "h"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
         },
         {
           "type": "basic",
@@ -251,7 +251,7 @@
             {"type": "variable_if", "name": "is_passthrough", "value": 0}
           ],
           "from": {"simultaneous": [{"key_code": "f"},{"key_code": "u"}]},
-          "to": [{"key_code": "h"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
+          "to": [{"key_code": "s"},{"key_code": "h"},{"key_code": "u", "repeat": false}]
         },
         {
           "type": "basic",
