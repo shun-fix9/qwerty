@@ -1182,7 +1182,7 @@
       ]
     },
     {
-      "description": "JIS -> ANSI",
+      "description": "symbols",
       "manipulators": [
         {
           "type": "basic",

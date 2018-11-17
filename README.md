@@ -13,7 +13,7 @@
 
 ### available rules
 
-- JIS -> ANSI
+- symbols
 - VSCode fix
 - 月配列俺式改三
 
