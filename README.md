@@ -13,12 +13,14 @@
 
 ### available rules
 
-- 月配列俺式改三
 - JIS -> ANSI
 - VSCode fix
+- 月配列俺式改三
 
 
 ## keyboad layout
+
+### symbols
 
 ```
 ! @ # $ % ~ & * ( ) ~ - |
@@ -28,7 +30,29 @@ P { `
 p [ ^
 L ; ' }
 l : " ]
+```
 
+### VSCode fix
+
+#### backslash
+
+```
+\ -> Option + \
+Option + \ -> \
+```
+
+#### git-purge
+
+```
+Cmd + Ctrl + U ->
+ - Cmd + Ctrl + J 'master' # git checkout 'master'
+ - Cmd + Ctrl + F          # git pull
+ - Cmd + Ctrl + H          # git branch -d $1
+```
+
+### 月配列俺式改三
+
+```
 通常
   そ   こ   し   て   よ   つ   ん   い   の   り   ち
    は  <か> <あ> <と> <た> <く> <う> <も> <わ>  き   れ
@@ -73,23 +97,4 @@ l : " ]
   び   ご   じ   ぎ   ぜ   ＊   ＊   ＊   ＊   ＊   ＊
   きゃ  げ   で   ば   だ   ＊   ＊   ＃  <  >  ＊   ＊
    でぃ  ぷ   ず   ぶ   べ   ＊   ＊   ＊   ＊   ＊
-```
-
-
-### VSCode fix
-
-#### backslash
-
-```
-\ -> Option + \
-Option + \ -> \
-```
-
-#### git-purge
-
-```
-Cmd + Ctrl + U ->
- - Cmd + Ctrl + J 'master' # git checkout 'master'
- - Cmd + Ctrl + F          # git pull
- - Cmd + Ctrl + H          # git branch -d $1
 ```
