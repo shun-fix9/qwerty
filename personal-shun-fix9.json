@@ -1270,6 +1270,70 @@
           "to": [{"key_code": "2", "modifiers": ["left_shift"]}]
         }
       ]
+    },
+    {
+      "description": "VSCode fix",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {"key_code": "u", "modifiers": {"mandatory": ["control","command"]}},
+          "to": [
+            {"key_code": "f", "modifiers": ["left_control","left_command"]},
+            {"key_code": "j", "modifiers": ["left_control","left_command"]},
+            {"key_code": "m"},
+            {"key_code": "a"},
+            {"key_code": "s"},
+            {"key_code": "t"},
+            {"key_code": "e"},
+            {"key_code": "r"},
+            {"key_code": "return_or_enter"},
+            {"key_code": "m", "modifiers": ["left_control","left_command"]},
+            {"key_code": "o"},
+            {"key_code": "r"},
+            {"key_code": "i"},
+            {"key_code": "g"},
+            {"key_code": "i"},
+            {"key_code": "n"},
+            {"key_code": "/"},
+            {"key_code": "m"},
+            {"key_code": "a"},
+            {"key_code": "s"},
+            {"key_code": "t"},
+            {"key_code": "e"},
+            {"key_code": "r"},
+            {"key_code": "return_or_enter"},
+            {"key_code": "h", "modifiers": ["left_control","left_command"]}
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": ["^com\\.microsoft\\.VSCode$"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "international3"},
+          "to": [{"key_code": "international3", "modifiers": ["left_option"]}],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": ["^com\\.microsoft\\.VSCode$"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {"key_code": "international3", "modifiers": {"mandatory": "option"}},
+          "to": [{"key_code": "international3"}],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": ["^com\\.microsoft\\.VSCode$"]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
