@@ -76,7 +76,18 @@
 
 ### VSCode fix
 
+#### backslash
+
 ```
 \ -> Option + \
 Option + \ -> \
+```
+
+#### git-purge
+
+```
+Cmd + Ctrl + U ->
+ - Cmd + Ctrl + J 'master'
+ - Cmd + Ctrl + F
+ - Cmd + Ctrl + H
 ```
