@@ -10,22 +10,24 @@
 1. open Karabiner-Elements preference
 1. select Complex Modifications tab
 1. Add rule
-1. select 月配列俺式改三
-1. select JIS -> ANSI
+
+### available rules
+
+- 月配列俺式改三
+- JIS -> ANSI
+- VSCode fix
 
 
 ## keyboad layout
 
 ```
-! @ # $ % ^ & * ( ) ~ + |
-1 2 3 4 5 6 7 8 9 0 - = \
+! @ # $ % ~ & * ( ) ~ - |
+1 2 3 4 5 6 7 8 9 0 + = \
 
-                  P { }
-                  p [ ]
-                 L ; '
-                 l : "
-                    `
-                    _
+P { `
+p [ ^
+L ; ' }
+l : " ]
 
 通常
   そ   こ   し   て   よ   つ   ん   い   の   り   ち
