@@ -4,7 +4,7 @@
 
 ## Import to Karabiner-Elements
 
-1. copy `personal-shun-fix9.json` to `~.config/karabiner/assets/complex_modifications/`
+1. copy `personal-shun-fix9.json` to `~/.config/karabiner/assets/complex_modifications/`
 1. open Karabiner-Elements preference
 1. select Complex Modifications tab
 1. Add rule
