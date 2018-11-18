@@ -9,14 +9,12 @@
 1. select Complex Modifications tab
 1. Add rule
 
-### available rules
+## available rules
 
 - 月配列俺式改四
 - symbols
 - VSCode fix
 
-
-## keyboad layout
 
 ### 月配列俺式改四
 
@@ -59,8 +57,6 @@ l : " ]
 ```
 
 ### VSCode fix
-
-#### backslash
 
 ```
 \ -> Option + \
