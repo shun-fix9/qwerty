@@ -66,12 +66,3 @@ l : " ]
 \ -> Option + \
 Option + \ -> \
 ```
-
-#### git-purge
-
-```
-Cmd + Ctrl + U ->
- - Cmd + Ctrl + J 'master' # git checkout 'master'
- - Cmd + Ctrl + F          # git pull
- - Cmd + Ctrl + H          # git branch -d $1
-```
