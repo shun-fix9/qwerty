@@ -1,4 +1,4 @@
-# karabiner-elements-complex_modifications
+# qwerty
 
 月配列俺式
 
@@ -11,7 +11,7 @@
 
 ### available rules
 
-- 月配列俺式改三
+- 月配列俺式改四
 - symbols
 - VSCode fix
 
