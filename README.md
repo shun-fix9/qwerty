@@ -2,8 +2,6 @@
 
 月配列俺式
 
-- version: 3.0
-
 ## Import to Karabiner-Elements
 
 1. copy `personal-shun-fix9.json` to `~.config/karabiner/assets/complex_modifications/`
