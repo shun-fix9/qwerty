@@ -515,7 +515,7 @@
             {"type": "variable_if","name": "right_thumb_shift","value": 0}
           ],
           "from": {"key_code": "close_bracket"},
-          "to": [{"key_code": "n"},{"key_code": "u", "repeat": false}]
+          "to": [{"key_code": "p"},{"key_code": "e", "repeat": false}]
         },
 
         {
@@ -596,7 +596,7 @@
             {"type": "variable_if","name": "right_thumb_shift","value": 0}
           ],
           "from": {"key_code": "k"},
-          "to": [{"key_code": "j"},{"key_code": "i", "repeat": false}]
+          "to": [{"key_code": "d"},{"key_code": "e", "repeat": false}]
         },
         {
           "type": "basic",
@@ -626,7 +626,7 @@
             {"type": "variable_if","name": "right_thumb_shift","value": 0}
           ],
           "from": {"key_code": "quote"},
-          "to": [{"key_code": "b"},{"key_code": "u", "repeat": false}]
+          "to": [{"key_code": "j"},{"key_code": "i", "repeat": false}]
         },
         {
           "type": "basic",
@@ -636,7 +636,7 @@
             {"type": "variable_if","name": "right_thumb_shift","value": 0}
           ],
           "from": {"key_code": "non_us_pound"},
-          "to": [{"key_code": "d"},{"key_code": "e", "repeat": false}]
+          "to": [{"key_code": "p"},{"key_code": "u", "repeat": false}]
         },
 
         {
@@ -737,7 +737,7 @@
             {"type": "variable_if","name": "right_thumb_shift","value": 0}
           ],
           "from": {"key_code": "slash"},
-          "to": [{"key_code": "p"},{"key_code": "u", "repeat": false}]
+          "to": [{"key_code": "b"},{"key_code": "u", "repeat": false}]
         },
         {
           "type": "basic",
@@ -747,7 +747,7 @@
             {"type": "variable_if","name": "right_thumb_shift","value": 0}
           ],
           "from": {"key_code": "international1"},
-          "to": [{"key_code": "p"},{"key_code": "e", "repeat": false}]
+          "to": [{"key_code": "n"},{"key_code": "u", "repeat": false}]
         },
 
 
