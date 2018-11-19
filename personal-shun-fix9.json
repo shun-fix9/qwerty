@@ -657,7 +657,7 @@
             {"type": "variable_if","name": "right_thumb_shift","value": 0}
           ],
           "from": {"key_code": "x"},
-          "to": [{"key_code": "s"},{"key_code": "h"},{"key_code": "u", "repeat": false}]
+          "to": [{"key_code": "s"},{"key_code": "h"},{"key_code": "o", "repeat": false}]
         },
         {
           "type": "basic",
