@@ -1,0 +1,7 @@
+image: buildpack-deps:stretch
+
+release:
+  only:
+    - release@shun-fix9-labo/qwerty
+  script:
+    - ./bin/push_tags.sh
