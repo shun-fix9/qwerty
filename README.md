@@ -20,7 +20,8 @@
 
 - japanese_eisuu -> 左手
 - japanese_kana -> 右手
-- escape -> 無変換
+- escape -> 英数
+- japanese_eisuu + space -> 英数
 
 ```
 通常

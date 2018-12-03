@@ -40,6 +40,15 @@
           "from": {"key_code": "escape"},
           "to": [{"key_code": "japanese_eisuu"},{"key_code": "escape"}]
         },
+        {
+          "type": "basic",
+          "conditions": [
+            {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+            {"set_variable": {"name":"left_thumb_shift", "value": 1}}
+          ],
+          "from": {"key_code": "spacebar"},
+          "to": [{"key_code": "japanese_eisuu"}]
+        },
 
 
 
