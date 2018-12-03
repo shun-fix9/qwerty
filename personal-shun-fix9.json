@@ -44,7 +44,8 @@
           "type": "basic",
           "conditions": [
             {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-            {"set_variable": {"name":"left_thumb_shift", "value": 1}}
+            {"type": "variable_if","name": "left_thumb_shift","value": 1},
+            {"type": "variable_if","name": "right_thumb_shift","value": 0}
           ],
           "from": {"key_code": "spacebar"},
           "to": [{"key_code": "japanese_eisuu"}]

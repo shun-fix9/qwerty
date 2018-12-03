@@ -1,3 +1,7 @@
+# Version : 0.2.1
+
+fix: keybind
+
 # Version : 0.2.0
 
 * fix: eisuu+spacebar -> eisuu (ja mode)
