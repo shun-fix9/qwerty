@@ -1,3 +1,7 @@
+# Version : 0.2.0
+
+* fix: eisuu+spacebar -> eisuu (ja mode)
+
 # Version : 0.1.2
 
 fix: gitlab-ci
