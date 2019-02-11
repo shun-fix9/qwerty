@@ -1,3 +1,7 @@
+# Version : 0.3.0
+
+fix: layout
+
 # Version : 0.2.1
 
 fix: keybind
