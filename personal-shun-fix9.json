@@ -401,6 +401,17 @@
           "from": {"key_code": "period"},
           "to": [{"key_code": "period", "repeat": false}]
         },
+        {
+          "type": "basic",
+          "conditions": [
+            {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+            {"type": "variable_if","name": "left_thumb_shift","value": 0},
+            {"type": "variable_if","name": "right_thumb_shift","value": 0},
+            {"type": "variable_if","name": "right_little_shift","value": 0}
+          ],
+          "from": {"key_code": "international1"},
+          "to": [{"key_code": "w"},{"key_code": "o", "repeat": false}]
+        },
 
 
         {
@@ -1135,7 +1146,7 @@
             {"type": "variable_if","name": "right_little_shift","value": 1}
           ],
           "from": {"key_code": "e"},
-          "to": [{"key_code": "w"},{"key_code": "o", "repeat": false}]
+          "to": [{"key_code": "j"},{"key_code": "i", "repeat": false}]
         },
         {
           "type": "basic",
@@ -1225,17 +1236,6 @@
           ],
           "from": {"key_code": "k"},
           "to": [{"key_code": "y"},{"key_code": "u", "repeat": false}]
-        },
-        {
-          "type": "basic",
-          "conditions": [
-            {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-            {"type": "variable_if","name": "left_thumb_shift","value": 0},
-            {"type": "variable_if","name": "right_thumb_shift","value": 0},
-            {"type": "variable_if","name": "right_little_shift","value": 1}
-          ],
-          "from": {"key_code": "l"},
-          "to": [{"key_code": "j"},{"key_code": "i", "repeat": false}]
         },
 
         {
