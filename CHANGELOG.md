@@ -1,3 +1,9 @@
+# CHANGELOG
+
+## Version : 0.6.0
+
+- fix: gitlab-ci : See merge request shun-fix9-base/labo/qwerty!17
+
 # Version : 0.5.1
 
 fix: repository
