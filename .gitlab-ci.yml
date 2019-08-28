@@ -1,7 +1,49 @@
-image: buildpack-deps:stretch
+stages:
+  - release
+  - notify
 
 release:
+  stage: release
   only:
-    - release@shun-fix9-labo/qwerty
+    refs:
+      - triggers
+    variables:
+      - $RELEASE
+
+  image: buildpack-deps:disco-scm
+
+  variables:
+    GIT_USER_NAME: getto
+    GIT_USER_EMAIL: admin@getto.systems
+
   script:
-    - ./bin/push_tags.sh
+    - curl https://raw.githubusercontent.com/getto-systems/version-dump/master/bin/version_dump.sh | bash
+    - curl https://raw.githubusercontent.com/getto-systems/version-dump/master/bin/push_tags.sh | bash
+
+release_success:
+  stage: notify
+  only:
+    refs:
+      - triggers
+    variables:
+      - $RELEASE
+  when: on_success
+
+  image: buildpack-deps:disco-curl
+
+  script:
+    - curl https://raw.githubusercontent.com/getto-systems/psycher-getto/master/bin/notify-deploy.sh | bash -s -- -l $GETTO_PSYCHER_URL?$GETTO_PSYCHER_TOKEN=true success
+
+release_failure:
+  stage: notify
+  only:
+    refs:
+      - triggers
+    variables:
+      - $RELEASE
+  when: on_failure
+
+  image: buildpack-deps:disco-curl
+
+  script:
+    - curl https://raw.githubusercontent.com/getto-systems/psycher-getto/master/bin/notify-deploy.sh | bash -s -- -l $GETTO_PSYCHER_URL?$GETTO_PSYCHER_TOKEN=true failure
