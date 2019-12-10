@@ -1,9 +1,10 @@
 stages:
+  - bump_version
   - release
-  - notify
+  - release_notify
 
-release:
-  stage: release
+bump_version:
+  stage: bump_version
   only:
     refs:
       - triggers
@@ -12,38 +13,66 @@ release:
 
   image: buildpack-deps:disco-scm
 
-  variables:
-    GIT_USER_NAME: getto
-    GIT_USER_EMAIL: admin@getto.systems
-
+  before_script:
+    - git config user.email admin@getto.systems
+    - git config user.name getto
+    - curl https://trellis.getto.systems/git/post/1.0.0/setup.sh | bash -s -- ./vendor/getto-systems
+    - export PATH=$PATH:./vendor/getto-systems/git-post/bin
   script:
-    - curl https://raw.githubusercontent.com/getto-systems/version-dump/master/bin/version_dump.sh | bash
-    - curl https://raw.githubusercontent.com/getto-systems/version-dump/master/bin/push_tags.sh | bash
+    - curl https://trellis.getto.systems/ci/bump-version/1.2.2/bump_version.sh | bash
+    - curl https://trellis.getto.systems/ci/bump-version/1.2.2/request.sh | bash -s -- ./.bump-message.sh
 
-release_success:
-  stage: notify
+release:
+  stage: release
   only:
     refs:
+      - master@shun-fix9-base/labo/qwerty
+    changes:
+      - .release-version
+  except:
+    refs:
       - triggers
-    variables:
-      - $RELEASE
+      - schedules
+
+  script:
+    - curl https://trellis.getto.systems/ci/bump-version/1.2.2/push_tags.sh | bash
+
+release_success:
+  stage: release_notify
+  only:
+    refs:
+      - master@shun-fix9-base/labo/qwerty
+    changes:
+      - .release-version
+  except:
+    refs:
+      - triggers
+      - schedules
   when: on_success
 
   image: buildpack-deps:disco-curl
 
+  before_script:
+    - export channel=$SLACK_CHANNEL
   script:
-    - curl https://raw.githubusercontent.com/getto-systems/psycher-getto/master/bin/notify-deploy.sh | bash -s -- -l $GETTO_PSYCHER_URL?$GETTO_PSYCHER_TOKEN=true success
+    - curl https://trellis.getto.systems/psycher/getto/2.5.6/notify-release.sh | bash -s -- -l $GETTO_PSYCHER_URL?$GETTO_PSYCHER_TOKEN=true success
 
 release_failure:
-  stage: notify
+  stage: release_notify
   only:
     refs:
+      - master@shun-fix9-base/labo/qwerty
+    changes:
+      - .release-version
+  except:
+    refs:
       - triggers
-    variables:
-      - $RELEASE
+      - schedules
   when: on_failure
 
   image: buildpack-deps:disco-curl
 
+  before_script:
+    - export channel=$SLACK_CHANNEL
   script:
-    - curl https://raw.githubusercontent.com/getto-systems/psycher-getto/master/bin/notify-deploy.sh | bash -s -- -l $GETTO_PSYCHER_URL?$GETTO_PSYCHER_TOKEN=true failure
+    - curl https://trellis.getto.systems/psycher/getto/2.5.6/notify-release.sh | bash -s -- -l $GETTO_PSYCHER_URL?$GETTO_PSYCHER_TOKEN=true failure
