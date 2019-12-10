@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## Version : 0.7.0
+
+- fix: gitlab-ci : See merge request shun-fix9-base/labo/qwerty!20
+- fix: gitlab-ci : See merge request shun-fix9-base/labo/qwerty!19
+- add: win dvorakj settings : See merge request shun-fix9-base/labo/qwerty!18
+
+
 ## Version : 0.6.0
 
 - fix: gitlab-ci : See merge request shun-fix9-base/labo/qwerty!17
