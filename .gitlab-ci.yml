@@ -14,7 +14,7 @@ bump_version:
   image: buildpack-deps:disco-scm
 
   before_script:
-    - git config user.email shun-fix9@gmail.com
+    - git config user.email shun.fix9@gmail.com
     - git config user.name shun
     - curl https://trellis.getto.systems/git/post/1.0.0/setup.sh | bash -s -- ./vendor/getto-systems
     - export PATH=$PATH:./vendor/getto-systems/git-post/bin
