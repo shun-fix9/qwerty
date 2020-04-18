@@ -11,7 +11,7 @@ bump_version:
     variables:
       - $RELEASE
 
-  image: buildpack-deps:disco-scm
+  image: buildpack-deps:buster-scm
 
   before_script:
     - git config user.email shun.fix9@gmail.com
@@ -50,7 +50,7 @@ release_success:
       - schedules
   when: on_success
 
-  image: buildpack-deps:disco-curl
+  image: buildpack-deps:buster-curl
 
   before_script:
     - export channel=$SLACK_CHANNEL
@@ -70,7 +70,7 @@ release_failure:
       - schedules
   when: on_failure
 
-  image: buildpack-deps:disco-curl
+  image: buildpack-deps:buster-curl
 
   before_script:
     - export channel=$SLACK_CHANNEL
