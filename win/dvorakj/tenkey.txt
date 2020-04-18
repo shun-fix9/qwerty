@@ -12,7 +12,18 @@
  * http://www.google.com/patents/about?id=xs1SAAAAEBAJ&dq=1198487
  */
 
--NumLock, -CapsLock, [
+[
+|             | {NumpadDiv} | -             |
+| {Backspace} | :           | {NumpadEnter} |
+|-------------+-------------+---------------|
+| {Numpad7}   | {Numpad8}   | {Numpad9}     |
+| {Numpad4}   | {Numpad5}   | {Numpad6}     |
+| {Numpad1}   | {Numpad2}   | {Numpad3}     |
+|-------------+-------------+---------------|
+| {Numpad0}   |             | {NumpadDot}   |
+]
+
+-NumLock [
 |             | {NumpadDiv} | {NumpadMult}  |
 | {NumpadSub} | {NumpadAdd} | {NumpadEnter} |
 |-------------+-------------+---------------|
