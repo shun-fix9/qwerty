@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## Version : 0.11.0
+
+- fix: layout : See merge request shun-fix9-base/labo/qwerty!35
+- fix: layout : See merge request shun-fix9-base/labo/qwerty!33
+- fix: gitlab-ci : See merge request shun-fix9-base/labo/qwerty!32
+
+
+
 ## Version : 0.10.0
 
 - fix: gitlab-ci : See merge request shun-fix9-base/labo/qwerty!30
