@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 0.12.0
+
+- fix: layout : See merge request shun-fix9-base/labo/qwerty!37
+
+
 ## Version : 0.11.0
 
 - fix: layout : See merge request shun-fix9-base/labo/qwerty!35
