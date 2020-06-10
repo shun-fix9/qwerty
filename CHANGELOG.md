@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Version : 0.13.0
+
+- fix: yamabuki config : See merge request shun-fix9-base/labo/qwerty!40
+- fix: README : See merge request shun-fix9-base/labo/qwerty!39
+
+
 ## Version : 0.12.0
 
 - fix: layout : See merge request shun-fix9-base/labo/qwerty!37
