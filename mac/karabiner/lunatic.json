@@ -370,7 +370,7 @@
                         {"type": "variable_if","name": "right_button","value": 0}
                     ],
                     "from": {"key_code": "comma"},
-                    "to": [{"key_code": "r"},{"key_code": "o", "repeat": false}]
+                    "to": [{"key_code": "hyphen", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -380,7 +380,7 @@
                         {"type": "variable_if","name": "right_button","value": 0}
                     ],
                     "from": {"key_code": "period"},
-                    "to": [{"key_code": "n"},{"key_code": "e", "repeat": false}]
+                    "to": [{"key_code": "r"},{"key_code": "o", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -410,7 +410,7 @@
                         {"type": "variable_if","name": "right_button","value": 0}
                     ],
                     "from": {"key_code": "slash"},
-                    "to": [{"key_code": "hyphen", "repeat": false}]
+                    "to": [{"key_code": "n"},{"key_code": "e", "repeat": false}]
                 },
                 {
                     "type": "basic",
