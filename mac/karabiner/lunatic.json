@@ -370,7 +370,7 @@
                         {"type": "variable_if","name": "right_button","value": 0}
                     ],
                     "from": {"key_code": "comma"},
-                    "to": [{"key_code": "comma", "repeat": false}]
+                    "to": [{"key_code": "r"},{"key_code": "o", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -380,6 +380,26 @@
                         {"type": "variable_if","name": "right_button","value": 0}
                     ],
                     "from": {"key_code": "period"},
+                    "to": [{"key_code": "n"},{"key_code": "e", "repeat": false}]
+                },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 0},
+                        {"type": "variable_if","name": "right_button","value": 0}
+                    ],
+                    "from": {"key_code": "comma", "modifiers": {"mandatory": ["shift"]}},
+                    "to": [{"key_code": "comma", "repeat": false}]
+                },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 0},
+                        {"type": "variable_if","name": "right_button","value": 0}
+                    ],
+                    "from": {"key_code": "period", "modifiers": {"mandatory": ["shift"]}},
                     "to": [{"key_code": "period", "repeat": false}]
                 },
                 {
@@ -391,6 +411,26 @@
                     ],
                     "from": {"key_code": "slash"},
                     "to": [{"key_code": "hyphen", "repeat": false}]
+                },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 0},
+                        {"type": "variable_if","name": "right_button","value": 0}
+                    ],
+                    "from": {"key_code": "hyphen"},
+                    "to": [{"key_code": "slash", "repeat": false}]
+                },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 0},
+                        {"type": "variable_if","name": "right_button","value": 0}
+                    ],
+                    "from": {"key_code": "right_shift"},
+                    "to": [{"key_code": "z"},{"key_code": "e", "repeat": false}]
                 },
 
                 {
@@ -523,6 +563,16 @@
                     "from": {"key_code": "close_bracket"},
                     "to": [{"key_code": "p"},{"key_code": "i", "repeat": false}]
                 },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 1},
+                        {"type": "variable_if","name": "right_button","value": 0}
+                    ],
+                    "from": {"key_code": "backslash"},
+                    "to": [{"key_code": "p"},{"key_code": "o", "repeat": false}]
+                },
 
                 {
                     "type": "basic",
@@ -644,6 +694,16 @@
                     "from": {"key_code": "quote"},
                     "to": [{"key_code": "d"},{"key_code": "e", "repeat": false}]
                 },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 1},
+                        {"type": "variable_if","name": "right_button","value": 0}
+                    ],
+                    "from": {"key_code": "return_or_enter"},
+                    "to": [{"key_code": "p"},{"key_code": "a", "repeat": false}]
+                },
 
                 {
                     "type": "basic",
@@ -653,7 +713,7 @@
                         {"type": "variable_if","name": "right_button","value": 0}
                     ],
                     "from": {"key_code": "left_shift"},
-                    "to": [{"key_code": "g"},{"key_code": "e", "repeat": false}]
+                    "to": [{"key_code": "d"},{"key_code": "u", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -663,7 +723,7 @@
                         {"type": "variable_if","name": "right_button","value": 0}
                     ],
                     "from": {"key_code": "z"},
-                    "to": [{"key_code": "d"},{"key_code": "h"},{"key_code": "i", "repeat": false}]
+                    "to": [{"key_code": "g"},{"key_code": "e", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -723,7 +783,7 @@
                         {"type": "variable_if","name": "right_button","value": 0}
                     ],
                     "from": {"key_code": "m"},
-                    "to": [{"key_code": "r"},{"key_code": "o", "repeat": false}]
+                    "to": [{"key_code": "g"},{"key_code": "i", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -733,7 +793,7 @@
                         {"type": "variable_if","name": "right_button","value": 0}
                     ],
                     "from": {"key_code": "comma"},
-                    "to": [{"key_code": "n"},{"key_code": "e", "repeat": false}]
+                    "to": [{"key_code": "b"},{"key_code": "o", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -743,7 +803,7 @@
                         {"type": "variable_if","name": "right_button","value": 0}
                     ],
                     "from": {"key_code": "period"},
-                    "to": [{"key_code": "z"},{"key_code": "e", "repeat": false}]
+                    "to": [{"key_code": "b"},{"key_code": "i", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -753,7 +813,17 @@
                         {"type": "variable_if","name": "right_button","value": 0}
                     ],
                     "from": {"key_code": "slash"},
-                    "to": [{"key_code": "slash", "repeat": false}]
+                    "to": [{"key_code": "b"},{"key_code": "e", "repeat": false}]
+                },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 1},
+                        {"type": "variable_if","name": "right_button","value": 0}
+                    ],
+                    "from": {"key_code": "right_shift"},
+                    "to": [{"key_code": "g"},{"key_code": "u", "repeat": false}]
                 },
 
                 {
@@ -804,7 +874,7 @@
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
                     "from": {"key_code": "r"},
-                    "to": [{"key_code": "b"},{"key_code": "o", "repeat": false}]
+                    "to": [{"key_code": "n"},{"key_code": "y"},{"key_code": "a", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -814,7 +884,7 @@
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
                     "from": {"key_code": "t"},
-                    "to": [{"key_code": "v"},{"key_code": "u", "repeat": false}]
+                    "to": [{"key_code": "n"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -824,7 +894,7 @@
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
                     "from": {"key_code": "y"},
-                    "to": [{"key_code": "d"},{"key_code": "i", "repeat": false}]
+                    "to": [{"key_code": "n"},{"key_code": "y"},{"key_code": "o", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -874,7 +944,7 @@
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
                     "from": {"key_code": "open_bracket"},
-                    "to": [{"key_code": "p"},{"key_code": "a", "repeat": false}]
+                    "to": [{"key_code": "m"},{"key_code": "y"},{"key_code": "o", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -884,7 +954,17 @@
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
                     "from": {"key_code": "close_bracket"},
-                    "to": [{"key_code": "close_bracket", "repeat": false}]
+                    "to": [{"key_code": "m"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
+                },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 0},
+                        {"type": "variable_if","name": "right_button","value": 1}
+                    ],
+                    "from": {"key_code": "backslash"},
+                    "to": [{"key_code": "m"},{"key_code": "y"},{"key_code": "a", "repeat": false}]
                 },
 
                 {
@@ -935,7 +1015,7 @@
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
                     "from": {"key_code": "f"},
-                    "to": [{"key_code": "g"},{"key_code": "i", "repeat": false}]
+                    "to": [{"key_code": "r"},{"key_code": "y"},{"key_code": "a", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -945,7 +1025,7 @@
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
                     "from": {"key_code": "g"},
-                    "to": [{"key_code": "g"},{"key_code": "u", "repeat": false}]
+                    "to": [{"key_code": "r"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -955,7 +1035,7 @@
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
                     "from": {"key_code": "h"},
-                    "to": [{"key_code": "b"},{"key_code": "i", "repeat": false}]
+                    "to": [{"key_code": "r"},{"key_code": "y"},{"key_code": "o", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -995,7 +1075,7 @@
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
                     "from": {"key_code": "semicolon"},
-                    "to": [{"key_code": "k"},{"key_code": "y"},{"key_code": "e", "repeat": false}]
+                    "to": [{"key_code": "b"},{"key_code": "y"},{"key_code": "o", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -1005,7 +1085,17 @@
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
                     "from": {"key_code": "quote"},
-                    "to": [{"key_code": "p"},{"key_code": "o", "repeat": false}]
+                    "to": [{"key_code": "b"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
+                },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 0},
+                        {"type": "variable_if","name": "right_button","value": 1}
+                    ],
+                    "from": {"key_code": "return_or_enter"},
+                    "to": [{"key_code": "b"},{"key_code": "y"},{"key_code": "a", "repeat": false}]
                 },
 
                 {
@@ -1056,7 +1146,7 @@
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
                     "from": {"key_code": "v"},
-                    "to": [{"key_code": "b"},{"key_code": "e", "repeat": false}]
+                    "to": [{"key_code": "g"},{"key_code": "y"},{"key_code": "a", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -1066,7 +1156,7 @@
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
                     "from": {"key_code": "b"},
-                    "to": [{"key_code": "d"},{"key_code": "h"},{"key_code": "u", "repeat": false}]
+                    "to": [{"key_code": "g"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -1076,7 +1166,7 @@
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
                     "from": {"key_code": "n"},
-                    "to": [{"key_code": "d"},{"key_code": "u", "repeat": false}]
+                    "to": [{"key_code": "g"},{"key_code": "y"},{"key_code": "o", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -1116,7 +1206,17 @@
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
                     "from": {"key_code": "slash"},
-                    "to": [{"key_code": "h"},{"key_code": "y"},{"key_code": "e", "repeat": false}]
+                    "to": [{"key_code": "p"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
+                },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 0},
+                        {"type": "variable_if","name": "right_button","value": 1}
+                    ],
+                    "from": {"key_code": "right_shift"},
+                    "to": [{"key_code": "d"},{"key_code": "h"},{"key_code": "i", "repeat": false}]
                 },
 
                 {
@@ -1126,47 +1226,7 @@
                         {"type": "variable_if","name": "left_button","value": 1},
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
-                    "from": {"key_code": "tab"},
-                    "to": [{"key_code": "m"},{"key_code": "y"},{"key_code": "e", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
                     "from": {"key_code": "q"},
-                    "to": [{"key_code": "m"},{"key_code": "y"},{"key_code": "a", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "w"},
-                    "to": [{"key_code": "m"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "e"},
-                    "to": [{"key_code": "m"},{"key_code": "y"},{"key_code": "o", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "r"},
                     "to": [{"key_code": "l"},{"key_code": "y"},{"key_code": "a", "repeat": false}]
                 },
                 {
@@ -1176,7 +1236,7 @@
                         {"type": "variable_if","name": "left_button","value": 1},
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
-                    "from": {"key_code": "t"},
+                    "from": {"key_code": "w"},
                     "to": [{"key_code": "l"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
                 },
                 {
@@ -1186,7 +1246,7 @@
                         {"type": "variable_if","name": "left_button","value": 1},
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
-                    "from": {"key_code": "y"},
+                    "from": {"key_code": "e"},
                     "to": [{"key_code": "l"},{"key_code": "y"},{"key_code": "o", "repeat": false}]
                 },
                 {
@@ -1196,249 +1256,7 @@
                         {"type": "variable_if","name": "left_button","value": 1},
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
-                    "from": {"key_code": "u"},
-                    "to": [{"key_code": "n"},{"key_code": "y"},{"key_code": "o", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "i"},
-                    "to": [{"key_code": "n"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "o"},
-                    "to": [{"key_code": "n"},{"key_code": "y"},{"key_code": "a", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "p"},
-                    "to": [{"key_code": "n"},{"key_code": "y"},{"key_code": "e", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "open_bracket"},
-                    "to": [{"key_code": "open_bracket", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "close_bracket"},
-                    "to": [{"key_code": "close_bracket", "repeat": false}]
-                },
-
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "left_control"},
-                    "to": [{"key_code": "g"},{"key_code": "y"},{"key_code": "e", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "a"},
-                    "to": [{"key_code": "g"},{"key_code": "y"},{"key_code": "a", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "s"},
-                    "to": [{"key_code": "g"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "d"},
-                    "to": [{"key_code": "g"},{"key_code": "y"},{"key_code": "o", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "f"},
-                    "to": [{"key_code": "l"},{"key_code": "a", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "g"},
-                    "to": [{"key_code": "l"},{"key_code": "u", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "h"},
-                    "to": [{"key_code": "l"},{"key_code": "e", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "j"},
-                    "to": [{"key_code": "b"},{"key_code": "y"},{"key_code": "o", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "k"},
-                    "to": [{"key_code": "b"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "l"},
-                    "to": [{"key_code": "b"},{"key_code": "y"},{"key_code": "a", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "semicolon"},
-                    "to": [{"key_code": "b"},{"key_code": "y"},{"key_code": "e", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "quote"},
-                    "to": [{"key_code": "quote", "repeat": false}]
-                },
-
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "left_shift"},
-                    "to": [{"key_code": "f"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "z"},
-                    "to": [{"key_code": "p"},{"key_code": "y"},{"key_code": "a", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "x"},
-                    "to": [{"key_code": "p"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "c"},
-                    "to": [{"key_code": "p"},{"key_code": "y"},{"key_code": "o", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "v"},
-                    "to": [{"key_code": "l"},{"key_code": "i", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "b"},
-                    "to": [{"key_code": "l"},{"key_code": "o", "repeat": false}]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "left_button","value": 1},
-                        {"type": "variable_if","name": "right_button","value": 1}
-                    ],
-                    "from": {"key_code": "n"},
+                    "from": {"key_code": "y"},
                     "to": [{"key_code": "u"},{"key_code": "l"},{"key_code": "o", "repeat": false}]
                 },
                 {
@@ -1448,8 +1266,8 @@
                         {"type": "variable_if","name": "left_button","value": 1},
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
-                    "from": {"key_code": "m"},
-                    "to": [{"key_code": "r"},{"key_code": "y"},{"key_code": "o", "repeat": false}]
+                    "from": {"key_code": "u"},
+                    "to": [{"key_code": "p"},{"key_code": "y"},{"key_code": "a", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -1458,8 +1276,8 @@
                         {"type": "variable_if","name": "left_button","value": 1},
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
-                    "from": {"key_code": "comma"},
-                    "to": [{"key_code": "r"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
+                    "from": {"key_code": "i"},
+                    "to": [{"key_code": "p"},{"key_code": "y"},{"key_code": "o", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -1468,8 +1286,8 @@
                         {"type": "variable_if","name": "left_button","value": 1},
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
-                    "from": {"key_code": "period"},
-                    "to": [{"key_code": "r"},{"key_code": "y"},{"key_code": "a", "repeat": false}]
+                    "from": {"key_code": "o"},
+                    "to": [{"key_code": "d"},{"key_code": "h"},{"key_code": "u", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -1478,8 +1296,79 @@
                         {"type": "variable_if","name": "left_button","value": 1},
                         {"type": "variable_if","name": "right_button","value": 1}
                     ],
-                    "from": {"key_code": "slash"},
-                    "to": [{"key_code": "r"},{"key_code": "y"},{"key_code": "e", "repeat": false}]
+                    "from": {"key_code": "p"},
+                    "to": [{"key_code": "f"},{"key_code": "y"},{"key_code": "u", "repeat": false}]
+                },
+
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 1},
+                        {"type": "variable_if","name": "right_button","value": 1}
+                    ],
+                    "from": {"key_code": "a"},
+                    "to": [{"key_code": "l"},{"key_code": "a", "repeat": false}]
+                },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 1},
+                        {"type": "variable_if","name": "right_button","value": 1}
+                    ],
+                    "from": {"key_code": "s"},
+                    "to": [{"key_code": "l"},{"key_code": "i", "repeat": false}]
+                },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 1},
+                        {"type": "variable_if","name": "right_button","value": 1}
+                    ],
+                    "from": {"key_code": "d"},
+                    "to": [{"key_code": "l"},{"key_code": "u", "repeat": false}]
+                },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 1},
+                        {"type": "variable_if","name": "right_button","value": 1}
+                    ],
+                    "from": {"key_code": "f"},
+                    "to": [{"key_code": "l"},{"key_code": "e", "repeat": false}]
+                },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 1},
+                        {"type": "variable_if","name": "right_button","value": 1}
+                    ],
+                    "from": {"key_code": "g"},
+                    "to": [{"key_code": "l"},{"key_code": "o", "repeat": false}]
+                },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 1},
+                        {"type": "variable_if","name": "right_button","value": 1}
+                    ],
+                    "from": {"key_code": "h"},
+                    "to": [{"key_code": "d"},{"key_code": "i", "repeat": false}]
+                },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 1},
+                        {"type": "variable_if","name": "right_button","value": 1}
+                    ],
+                    "from": {"key_code": "j"},
+                    "to": [{"key_code": "v"},{"key_code": "u", "repeat": false}]
                 }
             ]
         }
