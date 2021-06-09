@@ -259,7 +259,7 @@
                         {"type": "variable_if","name": "right_button","value": 0}
                     ],
                     "from": {"key_code": "k"},
-                    "to": [{"key_code": "hyphen", "repeat": false}]
+                    "to": [{"key_code": "w"},{"key_code": "a", "repeat": false}]
                 },
                 {
                     "type": "basic",
@@ -390,7 +390,7 @@
                         {"type": "variable_if","name": "right_button","value": 0}
                     ],
                     "from": {"key_code": "slash"},
-                    "to": [{"key_code": "w"},{"key_code": "a", "repeat": false}]
+                    "to": [{"key_code": "hyphen", "repeat": false}]
                 },
 
                 {
