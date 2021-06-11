@@ -180,6 +180,26 @@
                     "from": {"key_code": "close_bracket"},
                     "to": [{"key_code": "p"},{"key_code": "e", "repeat": false}]
                 },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 0},
+                        {"type": "variable_if","name": "right_button","value": 0}
+                    ],
+                    "from": {"key_code": "open_bracket", "modifiers": {"mandatory": ["shift"]}},
+                    "to": [{"key_code": "open_bracket", "repeat": false}]
+                },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "left_button","value": 0},
+                        {"type": "variable_if","name": "right_button","value": 0}
+                    ],
+                    "from": {"key_code": "close_bracket", "modifiers": {"mandatory": ["shift"]}},
+                    "to": [{"key_code": "close_bracket", "repeat": false}]
+                },
 
                 {
                     "type": "basic",
