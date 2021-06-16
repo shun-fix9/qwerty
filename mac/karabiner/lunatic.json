@@ -49,7 +49,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -60,7 +59,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -71,7 +69,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -82,7 +79,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -93,7 +89,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -104,7 +99,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -115,7 +109,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -126,7 +119,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -137,7 +129,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -148,7 +139,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -159,7 +149,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -170,7 +159,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -181,7 +169,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -192,7 +179,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -204,7 +190,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -215,7 +200,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -241,7 +225,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -252,7 +235,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -263,7 +245,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -274,7 +255,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -300,7 +280,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -311,7 +290,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -322,7 +300,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -334,7 +311,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -345,7 +321,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -356,7 +331,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -367,7 +341,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -378,7 +351,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -389,7 +361,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -400,7 +371,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -411,7 +381,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -422,7 +391,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
@@ -433,7 +401,6 @@
                     "type": "basic",
                     "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]},
-                        {"type": "variable_if","name": "foot_shift","value": 0},
                         {"type": "variable_if","name": "d_shift","value": 0},
                         {"type": "variable_if","name": "k_shift","value": 0}
                     ],
