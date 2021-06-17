@@ -13,20 +13,6 @@
                 {
                     "type": "basic",
                     "conditions": [
-                        {"type": "input_source_if","input_sources": [{"language": "en"}]}
-                    ],
-                    "from": {"pointing_button": "button1"},
-                    "to": [
-                        {"key_code": "japanese_kana"},
-                        {"set_variable": {"name":"foot_shift", "value": 1}}
-                    ],
-                    "to_after_key_up": [
-                        {"set_variable": {"name":"foot_shift", "value": 0}}
-                    ]
-                },
-                {
-                    "type": "basic",
-                    "conditions": [
                         {"type": "input_source_if","input_sources": [{"language": "ja"}]}
                     ],
                     "from": {"pointing_button": "button1"},
