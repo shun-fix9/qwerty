@@ -3,6 +3,11 @@ stages:
   - release
   - release_notify
 
+variables:
+  TRELLIS_GIT_POST: https://trellis.getto.systems/git/post/1.5.2
+  TRELLIS_CI_BUMP_VERSION: https://trellis.getto.systems/ci/bump-version/1.10.2
+  TRELLIS_PSYCHER_GETTO: https://trellis.getto.systems/psycher/getto/2.7.2
+
 bump_version:
   stage: bump_version
   only:
@@ -16,11 +21,11 @@ bump_version:
   before_script:
     - git config user.email shun.fix9@gmail.com
     - git config user.name shun
-    - curl https://trellis.getto.systems/git/post/1.0.0/setup.sh | bash -s -- ./vendor/getto-systems
+    - curl $TRELLIS_GIT_POST/setup.sh | sh -s -- ./vendor/getto-systems
     - export PATH=$PATH:./vendor/getto-systems/git-post/bin
   script:
-    - curl https://trellis.getto.systems/ci/bump-version/1.2.2/bump_version.sh | bash
-    - curl https://trellis.getto.systems/ci/bump-version/1.2.2/request.sh | bash -s -- ./.bump-message.sh
+    - curl $TRELLIS_CI_BUMP_VERSION/bump_version.sh | bash
+    - curl $TRELLIS_CI_BUMP_VERSION/request.sh | bash -s -- ./.bump-message.sh
 
 release:
   stage: release
@@ -34,8 +39,10 @@ release:
       - triggers
       - schedules
 
+  image: buildpack-deps:buster-scm
+
   script:
-    - curl https://trellis.getto.systems/ci/bump-version/1.2.2/push_tags.sh | bash
+    - curl $TRELLIS_CI_BUMP_VERSION/push_tags.sh | sh
 
 release_success:
   stage: release_notify
@@ -53,9 +60,11 @@ release_success:
   image: buildpack-deps:buster-curl
 
   before_script:
+    - export url=$GETTO_PSYCHER_URL?$GETTO_PSYCHER_TOKEN=true
     - export channel=$SLACK_CHANNEL
+    - export version=blog:$(cat .release-version)
   script:
-    - curl https://trellis.getto.systems/psycher/getto/2.5.6/notify-release.sh | bash -s -- -l $GETTO_PSYCHER_URL?$GETTO_PSYCHER_TOKEN=true success
+    - curl $TRELLIS_PSYCHER_GETTO/notify-release-success.sh | sh -s -- $url $channel $version
 
 release_failure:
   stage: release_notify
@@ -73,6 +82,8 @@ release_failure:
   image: buildpack-deps:buster-curl
 
   before_script:
+    - export url=$GETTO_PSYCHER_URL?$GETTO_PSYCHER_TOKEN=true
     - export channel=$SLACK_CHANNEL
+    - export version=blog:$(cat .release-version)
   script:
-    - curl https://trellis.getto.systems/psycher/getto/2.5.6/notify-release.sh | bash -s -- -l $GETTO_PSYCHER_URL?$GETTO_PSYCHER_TOKEN=true failure
+    - curl $TRELLIS_PSYCHER_GETTO/notify-release-failure.sh | sh -s -- $url $channel $version
