@@ -616,6 +616,17 @@
                     "from": {"key_code": "b"},
                     "to": [{"key_code": "z"},{"key_code": "a", "repeat": false}]
                 },
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {"type": "input_source_if","input_sources": [{"language": "ja"}]},
+                        {"type": "variable_if","name": "foot_shift","value": 0},
+                        {"type": "variable_if","name": "d_shift","value": 0},
+                        {"type": "variable_if","name": "k_shift","value": 1}
+                    ],
+                    "from": {"key_code": "slash"},
+                    "to": [{"key_code": "t"},{"key_code": "h"},{"key_code": "i", "repeat": false}]
+                },
 
                 {
                     "type": "basic",
