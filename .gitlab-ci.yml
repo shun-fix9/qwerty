@@ -26,7 +26,7 @@ release:
   stage: release
   only:
     refs:
-      - master@shun-fix9-base/labo/qwerty
+      - release@shun-fix9-base/labo/qwerty
     changes:
       - .release-version
   except:
@@ -41,7 +41,7 @@ release_success:
   stage: release_notify
   only:
     refs:
-      - master@shun-fix9-base/labo/qwerty
+      - release@shun-fix9-base/labo/qwerty
     changes:
       - .release-version
   except:
@@ -61,7 +61,7 @@ release_failure:
   stage: release_notify
   only:
     refs:
-      - master@shun-fix9-base/labo/qwerty
+      - release@shun-fix9-base/labo/qwerty
     changes:
       - .release-version
   except:
