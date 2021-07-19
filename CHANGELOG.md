@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## Version : 0.15.0
+
+- fix: gitlab ci : See merge request shun-fix9-base/labo/qwerty!56
+- fix: gitlab ci : See merge request shun-fix9-base/labo/qwerty!54
+- add: thi : See merge request shun-fix9-base/labo/qwerty!53
+- fix: layout : See merge request shun-fix9-base/labo/qwerty!52
+- fix: layout : See merge request shun-fix9-base/labo/qwerty!51
+- fix: layout : See merge request shun-fix9-base/labo/qwerty!50
+- fix: layout : See merge request shun-fix9-base/labo/qwerty!49
+- fix: layout : See merge request shun-fix9-base/labo/qwerty!48
+- fix: layout : See merge request shun-fix9-base/labo/qwerty!47
+- fix: layout : See merge request shun-fix9-base/labo/qwerty!46
+- fix: layout : See merge request shun-fix9-base/labo/qwerty!45
+- add: lunatic layout : See merge request shun-fix9-base/labo/qwerty!44
+
+
 ## Version : 0.14.0
 
 - fix: yamabuki config : See merge request shun-fix9-base/labo/qwerty!42
